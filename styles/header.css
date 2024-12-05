@@ -15,7 +15,7 @@ header {
 
   & nav {
     margin-left: auto;
-    gap: 1.6rem;
+    gap: 2rem;
 
     & a:hover {
       text-decoration: underline;
@@ -31,5 +31,11 @@ header {
     width: 4rem;
     border: 1px solid var(--skeleton-color);
     border-radius: 50%;
+  }
+}
+
+@media (width >= 1200px) {
+  header {
+    padding: 2rem 3.2rem;
   }
 }

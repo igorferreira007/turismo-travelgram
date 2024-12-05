@@ -17,9 +17,9 @@
 
   --font-family: "Poppins", sans-serif;
   --text: 400 1.6rem/150% var(--font-family);
-  --text-lg: bold 3.2rem/125% var(--font-family);
-  --text-md: 400 1.4rem/170% var(--font-family);
-  --text-sm: 400 1.2rem/170% var(--font-family);
+    --text-xs: 400 1.2rem/170% var(--font-family);
+    --text-sm: 400 1.4rem/170% var(--font-family);
+    --text-lg: bold 2.4rem/125% var(--font-family);
 }
 
 body {
@@ -30,4 +30,17 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+@media (width >= 1200px) {
+  :root {
+    --text: 400 1.6rem/150% var(--font-family);
+    --text-xs: 400 1.2rem/170% var(--font-family);
+    --text-sm: 400 1.4rem/170% var(--font-family);
+    --text-lg: bold 3.2rem/125% var(--font-family);
+  }
 }
