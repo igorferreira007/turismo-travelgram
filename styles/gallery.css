@@ -1,4 +1,4 @@
-#galery {
+#gallery {
   padding: 1.6rem;
 
   & .container {
@@ -16,7 +16,7 @@
 }
 
 @media (width >= 1200px) {
-  #galery {
+  #gallery {
     padding: 2.4rem 3.2rem;
 
     & .container {
