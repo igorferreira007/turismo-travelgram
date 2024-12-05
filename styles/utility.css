@@ -7,3 +7,9 @@
 .desktop-only {
   display: none;
 }
+
+@media (width >= 1200px) {
+  .desktop-only {
+    display: initial;
+  }
+}

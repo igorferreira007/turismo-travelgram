@@ -1,0 +1,35 @@
+header {
+  background-color: var(--surface-color);
+  padding: 1.6rem;
+
+  & .container,
+  & nav {
+    display: flex;
+    align-items: center;
+
+    & a:has(img),
+    & a:has(svg) {
+      display: flex;
+    }
+  }
+
+  & nav {
+    margin-left: auto;
+    gap: 1.6rem;
+
+    & a:hover {
+      text-decoration: underline;
+      color: var(--brand-color);
+    }
+
+    & a:nth-child(1):hover svg path {
+      fill: var(--brand-color);
+    }
+  }
+
+  .profile-pic {
+    width: 4rem;
+    border: 1px solid var(--skeleton-color);
+    border-radius: 50%;
+  }
+}
